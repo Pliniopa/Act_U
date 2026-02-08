@@ -1,0 +1,148 @@
+.fondo {
+    background-image: url("../Recursos/Fondo/Fondo-1.png");
+    /* poner una imagen de fondo */
+    background-size: cover;
+    /* Cubre todo el fondo */
+    background-position: center;
+    /* Centrada */
+
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    align-items: center;
+    flex-direction: column ;
+}
+
+.img-cangreburger {
+    background-color: 00000025;
+    width: 200px;
+    height: 200px;
+    gap: 100%;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: aqua;
+}
+
+.caja{
+    width: auto;
+    height: auto;
+    background-color: #00000075;
+    margin: 10px;
+
+}
+
+.caja-ppal {
+    width: 95%;
+    /* Ancho */
+    height: auto;
+    /* Alto */
+    background-color: #9d9d9d80;
+    /* Color de fondo */
+    border-radius: 5%;
+    /* redondeo */
+    margin: 10%;
+    padding: 5% auto;
+    display: flex;
+}
+
+.pata {
+    text-align: center;
+}
+
+.caja-pata {
+    display: flex;
+}
+
+.caja-selecciones {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    gap: 5% 10%;
+    height: 30vh;
+    /* Altura para demostrar el centrado vertical */
+
+}
+
+.caja-men {
+    width: 45%;
+    height: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet */
+
+@media screen and (max-width: 1200px) {
+    .fondo {
+        background-image: url("../Recursos/Fondo/Fondo-2.png");
+        /* poner una imagen de fondo */
+        background-size: cover;
+        /* Cubre todo el fondo */
+        background-repeat: no-repeat;
+        /* No se repite */
+        background-position: center;
+        /* Centrada */
+        background-attachment: fixed;
+        /* Opcional: fija al hacer scroll */
+    }
+
+    h1 {
+        color: red;
+    }
+
+}
+
+
+
+
+
+/* SmartPhone */
+
+@media screen and (max-width: 799px) {
+    .fondo {
+        background-image: url("../Recursos/Fondo/Fondo-3.png");
+        /* poner una imagen de fondo */
+        background-size: cover;
+        /* Cubre todo el fondo */
+        background-repeat: no-repeat;
+        /* No se repite */
+        background-position: center;
+        /* Centrada */
+        background-attachment: fixed;
+        /* Opcional: fija al hacer scroll */
+    }
+
+    h1 {
+        color: blue;
+    }
+
+}
